@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="bg-black text-white py-32 relative overflow-hidden h-[60vh]"
+      className="bg-black text-white py-32 relative overflow-hidden h-[70vh]"
     >
       <div className="absolute inset-0 z-0">
         <img
