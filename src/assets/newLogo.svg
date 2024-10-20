@@ -1,0 +1,13 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Edificio izquierdo -->
+  <rect x="60" y="80" width="20" height="60" fill="black"/>
+  
+  <!-- Edificio central -->
+  <polygon points="90,140 90,80 110,60 110,140" fill="black"/>
+  
+  <!-- Edificio derecho -->
+  <rect x="120" y="100" width="20" height="40" fill="black"/>
+  
+  <!-- Círculo (sol o diseño abstracto) -->
+  <circle cx="135" cy="65" r="10" fill="black"/>
+</svg>

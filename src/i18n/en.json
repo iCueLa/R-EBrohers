@@ -1,0 +1,74 @@
+{
+  "home": "Home",
+  "companyName": "Constructor",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+  "heroTitle": "Building Dreams, Crafting Reality",
+  "heroSubtitle": "Your vision, our expertise. Let's build something extraordinary together.",
+  "learnMore": "Learn More",
+  "ourProjects": "Our Projects",
+  "project1Name": "Modern Office Complex",
+  "project2Name": "Luxury Residential Tower",
+  "project3Name": "Sustainable Shopping Center",
+  "aboutUs": "About Us",
+  "aboutDescription": "Constructor has been at the forefront of the construction industry for over 30 years. We pride ourselves on delivering high-quality projects that exceed our clients' expectations.",
+  "experienceTitle": "Years of Experience",
+  "experienceDesc": "With decades in the industry, we bring unparalleled expertise to every project.",
+  "teamTitle": "Expert Team",
+  "teamDesc": "Our team of professionals ensures the highest standards in every aspect of our work.",
+  "qualityTitle": "Quality Assurance",
+  "qualityDesc": "We are committed to delivering excellence in every project we undertake.",
+  "contactUs": "Contact Us",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "send": "Send",
+  "formSubmitted": "Thank you for your message. We'll get back to you soon!",
+  "quickLinks": "Quick Links",
+  "contactInfo": "Contact Info",
+  "address": "123 Construction Ave, Building City, 45678",
+  "phone": "Phone",
+  "followUs": "Follow Us",
+  "footerDescription": "Building excellence, one project at a time.",
+  "allRightsReserved": "All rights reserved.",
+  "services": {
+    "title": "Our Services",
+    "residential": {
+      "title": "Residential Construction",
+      "description": "Custom homes and renovations tailored to your lifestyle"
+    },
+    "commercial": {
+      "title": "Commercial Construction",
+      "description": "State-of-the-art office buildings and retail spaces"
+    },
+    "industrial": {
+      "title": "Industrial Construction",
+      "description": "Efficient factories and warehouses built to last"
+    }
+  },
+  "projectDetails": {
+    "completionDate": "Completion Date",
+    "location": "Location",
+    "client": "Client",
+    "projectValue": "Project Value",
+    "awards": "Awards and Recognition"
+  },
+  "projects_detail": {
+    "title": "Featured Projects",
+    "project1": "Eco-Friendly Office Complex",
+    "description1": "A sustainable, LEED-certified office building with cutting-edge green technology",
+    "project2": "Luxury Beachfront Residence",
+    "description2": "A stunning modern home with panoramic ocean views and high-end finishes",
+    "project3": "State-of-the-Art Distribution Center",
+    "description3": "A massive, automated warehouse facility optimized for efficiency",
+    "project4": "Mixed-Use Urban Development",
+    "description4": "A vibrant community space combining residential, retail, and office units",
+    "viewDetails": "View Details"
+  },
+  "ourMission": "Our Mission",
+  "missionDescription": "To deliver exceptional construction projects that exceed client expectations, while maintaining the highest standards of quality, safety, and sustainability.",
+  "ourVision": "Our Vision",
+  "visionDescription": "To be the leading construction company, recognized for innovation, reliability, and commitment to building a better future.",
+  "exploreProjects": "Explore Our Projects"
+}

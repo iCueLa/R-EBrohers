@@ -1,0 +1,74 @@
+{
+  "home": "Inicio",
+  "companyName": "Constructora ",
+  "about": "Acerca de",
+  "projects": "Proyectos",
+  "contact": "Contacto",
+  "heroTitle": "Construyendo Sueños, Creando Realidad",
+  "heroSubtitle": "Tu visión, nuestra experiencia. Construyamos algo extraordinario juntos.",
+  "learnMore": "Saber Más",
+  "ourProjects": "Nuestros Proyectos",
+  "project1Name": "Complejo de Oficinas Moderno",
+  "project2Name": "Torre Residencial de Lujo",
+  "project3Name": "Centro Comercial Sostenible",
+  "aboutUs": "Sobre Nosotros",
+  "aboutDescription": "Constructora ha estado a la vanguardia de la industria de la construcción durante más de 30 años. Nos enorgullecemos de entregar proyectos de alta calidad que superan las expectativas de nuestros clientes.",
+  "experienceTitle": "Años de Experiencia",
+  "experienceDesc": "Con décadas en la industria, aportamos una experiencia sin igual a cada proyecto.",
+  "teamTitle": "Equipo Experto",
+  "teamDesc": "Nuestro equipo de profesionales garantiza los más altos estándares en todos los aspectos de nuestro trabajo.",
+  "qualityTitle": "Garantía de Calidad",
+  "qualityDesc": "Estamos comprometidos a ofrecer excelencia en cada proyecto que emprendemos.",
+  "contactUs": "Contáctanos",
+  "name": "Nombre",
+  "email": "Correo Electrónico",
+  "message": "Mensaje",
+  "send": "Enviar",
+  "formSubmitted": "¡Gracias por tu mensaje. Nos pondremos en contacto contigo pronto!",
+  "quickLinks": "Enlaces Rápidos",
+  "contactInfo": "Información de Contacto",
+  "address": "Av. Construcción 123, Ciudad Edificio, 45678",
+  "phone": "Teléfono",
+  "followUs": "Síguenos",
+  "footerDescription": "Construyendo excelencia, un proyecto a la vez.",
+  "allRightsReserved": "Todos los derechos reservados.",
+  "services": {
+    "title": "Nuestros Servicios",
+    "residential": {
+      "title": "Construcción Residencial",
+      "description": "Casas personalizadas y renovaciones adaptadas a tu estilo de vida"
+    },
+    "commercial": {
+      "title": "Construcción Comercial",
+      "description": "Edificios de oficinas y espacios comerciales de vanguardia"
+    },
+    "industrial": {
+      "title": "Construcción Industrial",
+      "description": "Fábricas y almacenes eficientes construidos para durar"
+    }
+  },
+  "projects_detail": {
+    "title": "Proyectos Destacados",
+    "project1": "Complejo de Oficinas Ecológico",
+    "description1": "Un edificio de oficinas sostenible, certificado LEED, con tecnología verde de vanguardia",
+    "project2": "Residencia de Lujo Frente al Mar",
+    "description2": "Una impresionante casa moderna con vistas panorámicas al océano y acabados de alta gama",
+    "project3": "Centro de Distribución de Última Generación",
+    "description3": "Una instalación de almacenamiento masiva y automatizada optimizada para la eficiencia",
+    "project4": "Desarrollo Urbano de Uso Mixto",
+    "description4": "Un vibrante espacio comunitario que combina unidades residenciales, comerciales y de oficinas",
+    "viewDetails": "Ver Detalles"
+  },
+  "projectDetails": {
+    "completionDate": "Fecha de Finalización",
+    "location": "Ubicación",
+    "client": "Cliente",
+    "projectValue": "Valor del Proyecto",
+    "awards": "Premios y Reconocimientos"
+  },
+  "ourMission": "Nuestra Misión",
+  "missionDescription": "Entregar proyectos de construcción excepcionales que superen las expectativas del cliente, manteniendo los más altos estándares de calidad, seguridad y sostenibilidad.",
+  "ourVision": "Nuestra Visión",
+  "visionDescription": "Ser la empresa de construcción líder, reconocida por la innovación, confiabilidad y compromiso con la construcción de un futuro mejor.",
+  "exploreProjects": "Explora Nuestros Proyectos"
+}
