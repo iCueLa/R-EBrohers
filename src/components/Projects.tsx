@@ -4,12 +4,18 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
-import { projects } from "../data/Projects";
 import { useNavigate } from "react-router-dom";
+import { projects } from "../data/projects";
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const goToSectionOnHome = (section: any, id: string) => {
+    navigate(`/project/${id}`, { state: { scrollTo: section } });
+  };
+  
 
   const settings = {
     dots: true,
@@ -47,10 +53,10 @@ const Projects: React.FC = () => {
                     </h3>
                     <p className="text-gray-600">{t(project.description)}</p>
                     <button
-                      onClick={() => navigate(`/project/${project.id}`)}
+                      onClick={() => goToSectionOnHome("project", project.id)}
                       className="bg-yellow-500 text-gray-900 px-4 py-2 rounded-md hover:bg-yellow-400 transition duration-300 mt-4"
                     >
-                      {t("projects_detail.viewDetails")}
+                      {t("project_detail.projectView")}
                     </button>
                   </div>
                 </div>

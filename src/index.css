@@ -1,12 +1,11 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* Smooth scrolling for internal links */
@@ -15,7 +14,8 @@ html {
 }
 
 /* Transition for hover effects */
-a, button {
+a,
+button {
   transition: all 0.3s ease;
 }
 
@@ -56,16 +56,14 @@ a, button {
   }
 }
 
-/* Improved focus styles for accessibility */
-a:focus, button:focus {
-  outline: 2px solid #4a90e2;
-  outline-offset: 2px;
-}
-
 /* Fade-in animation for content */
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .fade-in {

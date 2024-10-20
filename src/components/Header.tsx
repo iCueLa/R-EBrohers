@@ -10,7 +10,6 @@ const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenInMobile, setIsOpenInMobile] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const url = window.location.href;
   const navigate = useNavigate();
 
   const changeLanguage = (lng: string) => {
@@ -23,25 +22,9 @@ const Header: React.FC = () => {
     setIsOpenInMobile(false);
   };
 
-  const scrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    if (url.includes("project")) {
-      navigate("/");
-    }
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
-  const handleScrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    if (url.includes("project")) {
-      navigate("/");
-    }
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-    setIsMenuOpen(false);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const goToSectionOnHome = (section: any) => {
+    navigate("/", { state: { scrollTo: section } });
   };
 
   return (
@@ -51,46 +34,46 @@ const Header: React.FC = () => {
           <img
             src={NewLogo}
             alt="logo"
-            className="w-10 h-10"
-            onClick={() => scrollToSection("hero")}
+            className="w-10 h-10 cursor-pointer"
+            onClick={() => goToSectionOnHome("hero")}
           />
-          <span
-            className="text-xl font-bold text-black"
-            onClick={() => scrollToSection("hero")}
+          <a
+            onClick={() => goToSectionOnHome("hero")}
+            className="text-xl font-bold text-black cursor-pointer"
           >
             {t("companyName")}
-          </span>
+          </a>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
           <ul className="flex space-x-6 items-center">
             <li>
               <button
-                onClick={() => scrollToSection("hero")}
-                className="text-black hover:text-gray-600 font-bold"
+                onClick={() => goToSectionOnHome("hero")}
+                className="text-black hover:text-gray-600 font-bold hover:underline"
               >
                 {t("home")}
               </button>
             </li>
             <li>
               <button
-                onClick={() => scrollToSection("about")}
-                className="text-black hover:text-gray-600 font-bold"
+                onClick={() => goToSectionOnHome("about")}
+                className="text-black hover:text-gray-600 font-bold hover:underline"
               >
                 {t("about")}
               </button>
             </li>
             <li>
               <button
-                onClick={() => scrollToSection("projects")}
-                className="text-black hover:text-gray-600 font-bold"
+                onClick={() => goToSectionOnHome("projects")}
+                className="text-black hover:text-gray-600 font-bold hover:underline"
               >
                 {t("projects")}
               </button>
             </li>
             <li>
               <button
-                onClick={() => scrollToSection("contact")}
-                className="text-black hover:text-gray-600 font-bold"
+                onClick={() => goToSectionOnHome("contact")}
+                className="text-black hover:text-gray-600 font-bold hover:underline"
               >
                 {t("contact")}
               </button>
@@ -108,17 +91,17 @@ const Header: React.FC = () => {
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
-                  className="absolute right-0 mt-2 py-2 w-24 bg-white rounded-md shadow-xl z-20"
+                  className="absolute right-0 mt-2 py-2 w-24 bg-white rounded-md shadow-xl z-20 hover:underline"
                 >
                   <button
                     onClick={() => changeLanguage("es")}
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left hover:underline"
                   >
                     Español
                   </button>
                   <button
                     onClick={() => changeLanguage("en")}
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left hover:underline"
                   >
                     English
                   </button>
@@ -142,20 +125,20 @@ const Header: React.FC = () => {
         <div className="md:hidden bg-white py-4">
           <nav className="flex flex-col items-center space-y-4">
             <a
-              className="text-gray-600 hover:text-gray-800 font-bold"
-              onClick={() => handleScrollToSection("about")}
+              className="text-gray-600 hover:text-gray-800 font-bold hover:underline"
+              onClick={() => goToSectionOnHome("hero")}
             >
               {t("about")}
             </a>
             <a
-              className="text-gray-600 hover:text-gray-800 font-bold"
-              onClick={() => handleScrollToSection("projects")}
+              className="text-gray-600 hover:text-gray-800 font-bold hover:underline"
+              onClick={() => goToSectionOnHome("projects")}
             >
               {t("projects")}
             </a>
             <a
-              className="text-gray-600 hover:text-gray-800 font-bold"
-              onClick={() => handleScrollToSection("contact")}
+              className="text-gray-600 hover:text-gray-800 font-bold hover:underline"
+              onClick={() => goToSectionOnHome("contact")}
             >
               {t("contact")}
             </a>
@@ -175,13 +158,13 @@ const Header: React.FC = () => {
               >
                 <button
                   onClick={() => changeLenguageInMobile("es")}
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left font-bold"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left font-bold hover:underline"
                 >
                   Español
                 </button>
                 <button
                   onClick={() => changeLenguageInMobile("en")}
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left font-bold"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left font-bold hover:underline"
                 >
                   English
                 </button>

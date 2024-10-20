@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
     >
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+          src="src/assets/hero-photo.jpeg"
           alt="Minimalist construction"
           className="w-full h-full object-cover opacity-50"
         />

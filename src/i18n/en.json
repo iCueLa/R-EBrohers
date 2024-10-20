@@ -47,25 +47,19 @@
       "description": "Efficient factories and warehouses built to last"
     }
   },
-  "projectDetails": {
+  "project_detail": {
     "completionDate": "Completion Date",
     "location": "Location",
     "client": "Client",
     "projectValue": "Project Value",
-    "awards": "Awards and Recognition"
+    "awards": "Awards and Recognition",
+    "projectFeatures": "Project Features",
+    "projectCompletion": "Project Completion",
+    "projectLocation": "Project Location",
+    "backToProjects": "Back to Projects",
+    "projectView": "View Project"
   },
-  "projects_detail": {
-    "title": "Featured Projects",
-    "project1": "Eco-Friendly Office Complex",
-    "description1": "A sustainable, LEED-certified office building with cutting-edge green technology",
-    "project2": "Luxury Beachfront Residence",
-    "description2": "A stunning modern home with panoramic ocean views and high-end finishes",
-    "project3": "State-of-the-Art Distribution Center",
-    "description3": "A massive, automated warehouse facility optimized for efficiency",
-    "project4": "Mixed-Use Urban Development",
-    "description4": "A vibrant community space combining residential, retail, and office units",
-    "viewDetails": "View Details"
-  },
+
   "ourMission": "Our Mission",
   "missionDescription": "To deliver exceptional construction projects that exceed client expectations, while maintaining the highest standards of quality, safety, and sustainability.",
   "ourVision": "Our Vision",

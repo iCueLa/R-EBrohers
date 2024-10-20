@@ -5,14 +5,15 @@ import "aos/dist/aos.css";
 import Routes from "./Router/Routes";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { ScrollToSection } from "./components/ScrollToSections";
 
 function App() {
   const { t } = useTranslation();
 
-
   return (
     <BrowserRouter>
       <Header />
+      <ScrollToSection />
       <Routes />
       <FloatingWhatsApp
         phoneNumber="+1234567890"

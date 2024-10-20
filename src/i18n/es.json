@@ -1,6 +1,6 @@
 {
   "home": "Inicio",
-  "companyName": "Constructora ",
+  "companyName": "E&R Construcciones",
   "about": "Acerca de",
   "projects": "Proyectos",
   "contact": "Contacto",
@@ -47,24 +47,17 @@
       "description": "Fábricas y almacenes eficientes construidos para durar"
     }
   },
-  "projects_detail": {
-    "title": "Proyectos Destacados",
-    "project1": "Complejo de Oficinas Ecológico",
-    "description1": "Un edificio de oficinas sostenible, certificado LEED, con tecnología verde de vanguardia",
-    "project2": "Residencia de Lujo Frente al Mar",
-    "description2": "Una impresionante casa moderna con vistas panorámicas al océano y acabados de alta gama",
-    "project3": "Centro de Distribución de Última Generación",
-    "description3": "Una instalación de almacenamiento masiva y automatizada optimizada para la eficiencia",
-    "project4": "Desarrollo Urbano de Uso Mixto",
-    "description4": "Un vibrante espacio comunitario que combina unidades residenciales, comerciales y de oficinas",
-    "viewDetails": "Ver Detalles"
-  },
-  "projectDetails": {
+  "project_detail": {
     "completionDate": "Fecha de Finalización",
     "location": "Ubicación",
     "client": "Cliente",
     "projectValue": "Valor del Proyecto",
-    "awards": "Premios y Reconocimientos"
+    "awards": "Premios y Reconocimientos",
+    "projectFeatures": "Características del Proyecto",
+    "projectCompletion": "Finalización del Proyecto",
+    "projectLocation": "Ubicación del Proyecto",
+    "backToProjects": "Volver a Proyectos",
+    "projectView": "Ver Proyecto"
   },
   "ourMission": "Nuestra Misión",
   "missionDescription": "Entregar proyectos de construcción excepcionales que superen las expectativas del cliente, manteniendo los más altos estándares de calidad, seguridad y sostenibilidad.",

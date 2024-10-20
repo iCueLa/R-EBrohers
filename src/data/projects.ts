@@ -1,3 +1,5 @@
+import firstProyectPhoto from "../assets/hero-photo.jpeg";
+
 export const projects = [
   {
     id: "1",
@@ -7,7 +9,7 @@ export const projects = [
     fullDescription:
       "This modern office complex is a testament to sustainable architecture and innovative design. Spanning 50,000 square feet, the building incorporates advanced energy-efficient systems, including solar panels and smart climate control. The open-plan interior promotes collaboration and creativity, while dedicated quiet zones ensure focused work when needed. With its striking glass facade and green roof, this complex is not just a workplace, but a landmark in urban development.",
     images: [
-      "https://images.unsplash.com/photo-1590725140246-20acddc1ec6b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      firstProyectPhoto,
       "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     ],
@@ -29,7 +31,7 @@ export const projects = [
     fullDescription:
       "Rising 40 stories above the city skyline, this luxury residential tower redefines urban living. Each of the 200 apartments is a masterpiece of design, featuring floor-to-ceiling windows, smart home technology, and premium finishes. The building boasts an impressive array of amenities, including a rooftop infinity pool, private cinema, and a gourmet restaurant. With its sleek architecture and unparalleled views, this tower is the new pinnacle of city living.",
     images: [
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      firstProyectPhoto,
       "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     ],
