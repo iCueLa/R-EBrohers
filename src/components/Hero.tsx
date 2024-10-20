@@ -1,4 +1,5 @@
 import React from "react";
+import heroPhoto from "../assets/hero-photo.jpeg";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
@@ -20,7 +21,7 @@ const Hero: React.FC = () => {
     >
       <div className="absolute inset-0 z-0">
         <img
-          src="src/assets/hero-photo.jpeg"
+          src={heroPhoto}
           alt="Minimalist construction"
           className="w-full h-full object-cover opacity-50"
         />
