@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">{t("contactInfo")}</h4>
             <p className="text-gray-400">{t("address")}</p>
-            <p className="text-gray-400">{t("phone")}: +1 234 567 890</p>
+            <p className="text-gray-400">{t("phone")}: +54 11 3321 8756</p>
             <p className="text-gray-400">{t("email")}: info@buildmaster.com</p>
           </div>
           <div>

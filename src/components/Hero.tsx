@@ -1,5 +1,5 @@
 import React from "react";
-import heroPhoto from "../assets/hero-photo.jpeg";
+import heroPhoto from "../assets/heroSection/HeroImage2.png";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
@@ -17,13 +17,13 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="bg-black text-white py-32 relative overflow-hidden h-[70vh]"
+      className="bg-black text-white py-32 relative overflow-hidden h-[80vh]"
     >
       <div className="absolute inset-0 z-0">
         <img
           src={heroPhoto}
           alt="Minimalist construction"
-          className="w-full h-full object-cover opacity-50"
+          className="w-full h-full object-cover opacity-80"
         />
       </div>
       <div className="container mx-auto px-4 relative z-10 flex items-center justify-center">

@@ -16,7 +16,7 @@ function App() {
       <ScrollToSection />
       <Routes />
       <FloatingWhatsApp
-        phoneNumber="+1234567890"
+        phoneNumber="+541133218756"
         accountName={t("companyName")}
         avatar="src/assets/newLogo.svg"
         chatMessage="Hola, ¿en qué podemos ayudarte?"
