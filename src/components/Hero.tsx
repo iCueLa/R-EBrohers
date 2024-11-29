@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="bg-black text-white py-32 relative overflow-hidden h-[40vh] sm:h-[60vh]"
+      className="bg-black text-white py-32 relative overflow-hidden h-[50vh] sm:h-[60vh]"
     >
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
