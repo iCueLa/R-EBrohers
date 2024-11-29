@@ -17,15 +17,16 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="bg-black text-white py-32 relative overflow-hidden h-[80vh]"
+      className="bg-black text-white py-32 relative overflow-hidden h-[40vh] sm:h-[60vh]"
     >
-      <div className="absolute inset-0 z-0">
-        <img
-          src={heroPhoto}
-          alt="Minimalist construction"
-          className="w-full h-full object-cover opacity-80"
-        />
-      </div>
+      <div
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url(${heroPhoto})`,
+          opacity: 1,
+          visibility: "inherit",
+        }}
+      ></div>
       <div className="container mx-auto px-4 relative z-10 flex items-center justify-center">
         <motion.div
           initial={{ y: 50, opacity: 0 }}
@@ -33,20 +34,21 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h1 className="text-5xl font-bold mb-4">{t("heroTitle")}</h1>
-          <p className="text-xl mb-8">{t("heroSubtitle")}</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            {t("heroTitle")}
+          </h1>
+          <p className="text-lg md:text-xl mb-8">{t("heroSubtitle")}</p>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => scrollToSection("contact")}
-            className="bg-white group text-gray-900 px-8 py-4 rounded-full font-semibold text-lg transition duration-300 inline-flex items-center animate-fade-in-up animation-delay-400"
+            className="bg-white group text-gray-900 px-8 py-4 rounded-full font-semibold text-lg transition duration-300 inline-flex items-center"
           >
             {t("learnMore")}
             <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </motion.button>
         </motion.div>
       </div>
-      =
     </section>
   );
 };

@@ -15,7 +15,6 @@ const Projects: React.FC = () => {
   const goToSectionOnHome = (section: any, id: string) => {
     navigate(`/project/${id}`, { state: { scrollTo: section } });
   };
-  
 
   const settings = {
     dots: true,

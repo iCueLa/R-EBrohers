@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { ChevronDown, X, Menu } from "lucide-react";
 import { motion } from "framer-motion";
-import NewLogo from "../assets/newLogo.svg";
 import { useNavigate } from "react-router-dom";
 
 const Header: React.FC = () => {
@@ -30,16 +29,10 @@ const Header: React.FC = () => {
   return (
     <header className="bg-white shadow-md fixed w-full z-10 ">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="flex items-center">
-          <img
-            src={NewLogo}
-            alt="logo"
-            className="w-10 h-10 cursor-pointer"
-            onClick={() => goToSectionOnHome("hero")}
-          />
+        <div className="flex items-center  h-10">
           <a
             onClick={() => goToSectionOnHome("hero")}
-            className="text-xl font-bold text-black cursor-pointer"
+            className="text-xl font-bold text-black cursor-pointer "
           >
             {t("companyName")}
           </a>

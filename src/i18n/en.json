@@ -64,5 +64,12 @@
   "missionDescription": "To deliver exceptional construction projects that exceed client expectations, while maintaining the highest standards of quality, safety, and sustainability.",
   "ourVision": "Our Vision",
   "visionDescription": "To be the leading construction company, recognized for innovation, reliability, and commitment to building a better future.",
-  "exploreProjects": "Explore Our Projects"
+  "exploreProjects": "Explore Our Projects",
+  "ourServices": "Our Services",
+  "residentialConstruction": "Residential Construction",
+  "residentialConstructionDesc": "Custom homes and renovations tailored to your lifestyle",
+  "commercialConstruction": "Commercial Construction",
+  "commercialConstructionDesc": "State-of-the-art office buildings and retail spaces",
+  "renovationAndRemodeling": "Renovation and Remodeling",
+  "renovationAndRemodelingDesc": "Transform your existing space into something new and exciting"
 }

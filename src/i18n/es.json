@@ -60,8 +60,16 @@
     "projectView": "Ver Proyecto"
   },
   "ourMission": "Nuestra Misión",
+  "AboutMeText": "Somos una empresa familiar creada y dirigida por constructores. Nos distinguimos por nuestro conocimiento y especialización en el rubro, además de contar con una sólida trayectoria. Hacemos foco en la calidad de construcción y en las terminaciones porque creemos que la diferencia está en los detalles. Nuestro pilar fundamental es la ética en los negocios y el cumplimiento de contratos, lo que nos ha afianzado en el mercado como una empresa constructora sólida, solvente y comprometida. Construimos mucho más que grandes estructuras de hormigón… Construimos vínculos, confianza, futuro.Construimos sin límites.",
   "missionDescription": "Entregar proyectos de construcción excepcionales que superen las expectativas del cliente, manteniendo los más altos estándares de calidad, seguridad y sostenibilidad.",
   "ourVision": "Nuestra Visión",
   "visionDescription": "Ser la empresa de construcción líder, reconocida por la innovación, confiabilidad y compromiso con la construcción de un futuro mejor.",
-  "exploreProjects": "Explora Nuestros Proyectos"
+  "exploreProjects": "Explora Nuestros Proyectos",
+  "ourServices": "Nuestros Servicios",
+  "residentialConstruction": "Construcción Residencial",
+  "residentialConstructionDesc": "Casas personalizadas y renovaciones adaptadas a tu estilo de vida",
+  "commercialConstruction": "Construcción Comercial",
+  "commercialConstructionDesc": "Edificios de oficinas y espacios comerciales de vanguardia",
+  "renovationAndRemodeling": "Renovación y Remodelación",
+  "renovationAndRemodelingDesc": "Transformamos tu espacio existente en algo nuevo y emocionante"
 }

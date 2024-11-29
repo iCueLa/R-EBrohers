@@ -1,14 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import {
-  Home,
-  Building2,
-  Hammer,
-  Building,
-  Leaf,
-  ClipboardList,
-} from "lucide-react";
+import { Home, Building2, Hammer } from "lucide-react";
 
 const Services: React.FC = () => {
   const { t } = useTranslation();
@@ -29,21 +22,6 @@ const Services: React.FC = () => {
       title: t("renovationAndRemodeling"),
       description: t("renovationAndRemodelingDesc"),
     },
-    {
-      icon: <Building size={40} />,
-      title: t("infrastructureDevelopment"),
-      description: t("infrastructureDevelopmentDesc"),
-    },
-    {
-      icon: <Leaf size={40} />,
-      title: t("sustainableBuilding"),
-      description: t("sustainableBuildingDesc"),
-    },
-    {
-      icon: <ClipboardList size={40} />,
-      title: t("projectManagement"),
-      description: t("projectManagementDesc"),
-    },
   ];
 
   return (
@@ -61,7 +39,7 @@ const Services: React.FC = () => {
           {services.map((service, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, }}
+              initial={{ opacity: 0 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-white p-6 rounded-lg shadow-lg transition duration-300 hover:shadow-xl"
